@@ -291,7 +291,7 @@ gsap.from(".project-card", {
             // Create a temporary link to trigger download
             const tempLink = document.createElement('a');
             tempLink.href = downloadLink.href;
-            tempLink.download = downloadLink.download || 'resume.pdf';
+            tempLink.download = downloadLink.download || 'Mohammed_Owais_Software_developer.pdf';
             document.body.appendChild(tempLink);
             tempLink.click();
             document.body.removeChild(tempLink);
@@ -526,7 +526,7 @@ Message:
 ${data.message}
         `);
         
-        const mailtoLink = `mailto:abhijeetbhale7@gmail.com?subject=${emailSubject}&body=${emailBody}`;
+        const mailtoLink = `mailto:owaisrak28@gmail.com?subject=${emailSubject}&body=${emailBody}`;
         
         showMessage(`Form submission failed. <a href="${mailtoLink}" class="underline">Click here to send email directly</a> or try again later.`, 'error');
       } finally {
@@ -623,7 +623,7 @@ document.addEventListener('DOMContentLoaded', function() {
   
 // GitHub API Integration
 document.addEventListener('DOMContentLoaded', function() {
-  const username = 'abhijeetBhale';
+  const username = 'Owais';
   
   // GitHub API endpoints
   const endpoints = {
