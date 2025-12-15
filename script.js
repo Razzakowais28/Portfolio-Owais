@@ -291,7 +291,7 @@ gsap.from(".project-card", {
             // Create a temporary link to trigger download
             const tempLink = document.createElement('a');
             tempLink.href = downloadLink.href;
-            tempLink.download = downloadLink.download || 'Mohammed_Owais_Software_developer.pdf';
+            tempLink.download = downloadLink.download || 'Mohammed_Owais_Software_developer.pdf.pdf';
             document.body.appendChild(tempLink);
             tempLink.click();
             document.body.removeChild(tempLink);
